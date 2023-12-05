@@ -1,5 +1,5 @@
 class Asteroid extends Floater {
-  double rotSpeed;
+ private double rotSpeed;
  
   public Asteroid() {
   corners = 6;
