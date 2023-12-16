@@ -55,7 +55,7 @@ public void keyPressed(){
       ship.turn(10);
     if(key == 'h' || key == ' ')
       ship.hyperspace();  
-    if(key == ' ')
+    if(key == 'g')
       she.add(new bullet(ship));
 }
    
